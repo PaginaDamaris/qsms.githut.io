@@ -19,6 +19,7 @@
     background: #000;
   }
   
+  
   .container__header {
     max-width: 1200px;
     height: 100%;
@@ -115,17 +116,18 @@
 }
 
 .cancion-semana {
-  margin-top: 60px;
+  margin-top: 30px;
   padding: 40px;
   max-width: 560px;
   border-radius: 30px;
-  background: linear-gradient(135deg, #ede9fe, #ddd6fe);
+  background: linear-gradient(135deg, #e2ddfa, #ddd6fe);
   position: relative;
   overflow: hidden;
   box-shadow: 
     0 20px 50px rgba(124, 58, 237, 0.25),
     inset 0 1px 0 rgba(255, 255, 255, 0.6);
   transition: all 0.4s ease;
+  
 }
 
 .cancion-semana::before {
@@ -169,36 +171,17 @@
   box-shadow: 0 20px 45px rgba(124, 58, 237, 0.3);
 }
 
-#songTitle {
-  font-size: 18px;
+#songTitle button{
+  font-size: 19px;
   font-weight: 600;
   color: #4c1d95;
   letter-spacing: 0.5px;
-}
-
-#adminBtn {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  border: none;
-  background: linear-gradient(135deg, #c084fc, #a855f7);
-  color: white;
-  font-size: 17px;
-  cursor: pointer;
-  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
-  transition: all 0.3s ease;
-}
-
-#adminBtn:hover {
-  transform: rotate(120deg) scale(1.15);
-  box-shadow: 0 12px 30px rgba(124, 58, 237, 0.5);
+  border: 3px solid transparent;
 }
 
 body {
   background: linear-gradient(to bottom, #faf5ff, #f3e8ff);
+  
 }
 
 
